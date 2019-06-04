@@ -2,8 +2,8 @@ FROM alpine:3.9
 MAINTAINER FAN VINGA<fanalcest@gmail.com>
 
 ENV NODE_ID=0                     \
-    DNS_1=8.8.8.8                 \
-    DNS_2=1.1.1.1                 \
+    DNS_1=1.1.1.1                 \
+    DNS_2=8.8.8.8                 \
     SPEEDTEST=0                   \
     CLOUDSAFE=0                   \
     AUTOEXEC=0                    \
